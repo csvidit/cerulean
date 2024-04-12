@@ -2,12 +2,12 @@
 
 # cerulean
 
-An elevated to-do list web app. 
+An elevated to-do list web app.
 
 ## Tech Stack
 
-* Next.js with TailwindCSS
-* Firebase Auth
+* Next.js
+* Kinde Auth
 * Firebase Realtime Database
-* Firebase Firestore
+* Vercel Postgres
 * Firebase Messaging
