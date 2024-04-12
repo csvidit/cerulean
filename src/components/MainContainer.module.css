@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Gelion";
   src: url("../fonts/Gelion-Black.woff2") format("woff2"),
     url("../fonts/Gelion-Black.woff") format("woff");
@@ -154,4 +154,4 @@
   .main_background{
     background-image: url("/background-light.png");
   }
-}
+} */

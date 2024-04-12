@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { PiGoogleLogoBold, PiSignIn, PiWaves } from "react-icons/pi";
+import { PiGoogleLogoBold, PiLightningADuotone, PiLightningDuotone, PiSignIn, PiWaves } from "react-icons/pi";
 import { HiPencil, HiOutlineChevronDoubleLeft } from "react-icons/hi2";
 import { useRouter } from "next/router";
 import { IconType } from "react-icons";
 import { useAuth } from "@/AuthContext";
 import { auth } from "@/firebaseConfig";
-import PrimaryLink from "./PrimaryLink";
+import PrimaryLink from "../Buttons/PrimaryLink";
 
 const Header = () => {
   const { user, signout } = useAuth();
@@ -21,8 +21,8 @@ const Header = () => {
         <div className="flex flex-row space-x-2 items-center">
           <Link href="/">
             <div className="flex flex-row space-x-2 items-center text-gray-300 hover:text-blue-600 transition-all duration-200 ease-in-out">
-              <div><PiWaves/></div>
-              <div>Cerulean</div>
+              <div><PiLightningDuotone/></div>
+              <div className="self-stretch">cerulean</div>
             </div>
           </Link>
         </div>
