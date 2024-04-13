@@ -5,16 +5,15 @@ const PrimaryLink = (props: {
   href: string;
   icon?: React.ReactNode;
   children: React.ReactNode;
-  external: boolean
-  className?: string
+  className?: string;
 }) => {
   return (
     <Link
-      target={props.external ? "_blank" : ""}
+      target={props.href.startsWith("https?") ? "_blank" : "_self"}
       href={props.href}
-      className={`group w-fit flex flex-row space-x-2 items-center pt-1 pb-1 pl-4 pr-4 lowercase rounded-full bg-blue-950 bg-opacity-90 text-gray-300 border-2 border-blue-950 border-opacity-90 hover:bg-gray-950 transition-all duration-200 ease-in-out ${props.className}`}
+      className={`font-medium group w-fit flex flex-row space-x-2 items-center px-4 py-1 rounded-full bg-gray-100 text-gray-900 border-blue-950 border-opacity-90 hover:bg-gray-300 transition-all duration-200 ease-in-out ${props.className}`}
     >
-      <span className="">{props.icon}</span>
+      {props.icon && <span className="">{props.icon}</span>}
       <p>{props.children}</p>
     </Link>
   );

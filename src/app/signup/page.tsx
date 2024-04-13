@@ -1,12 +1,10 @@
+"use client";
+
 import { useAuth } from "@/AuthContext";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import MainContainer from "@/components/MainContainer";
 import MainContent from "@/components/MainContent";
-import Head from "next/head";
-import { useRouter } from "next/router";
 import { FormProvider, useForm } from "react-hook-form";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi2";
+import { useRouter } from "next/navigation";
 
 interface SignupType {
   email: string;

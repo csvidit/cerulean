@@ -9,5 +9,6 @@ An elevated to-do list web app.
 * Next.js
 * Kinde Auth
 * Firebase Realtime Database
-* Vercel Postgres
+* Neon Postgres
 * Firebase Messaging
+* Anthropic AI (Claude 3 Sonnet)

@@ -3,7 +3,14 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { PiGoogleLogoBold, PiLightningADuotone, PiLightningDuotone, PiSignIn, PiWaves } from "react-icons/pi";
+import {
+  PiFingerprintBold,
+  PiGoogleLogoBold,
+  PiLightningADuotone,
+  PiLightningDuotone,
+  PiSignIn,
+  PiWaves,
+} from "react-icons/pi";
 import { HiPencil, HiOutlineChevronDoubleLeft } from "react-icons/hi2";
 import { useRouter } from "next/navigation";
 import { IconType } from "react-icons";
@@ -19,28 +26,26 @@ const Header = () => {
   if (auth.currentUser === null) {
     // if (true) {
     return (
-      <motion.div className="fixed top-0 z-10 flex flex-row items-center justify-between w-screen px-16 py-4 space-x-2 text-xl bg-gray-900 h-max lg:text-2xl backdrop-blur-md dark:bg-opacity-30 bg-opacity-30">
-        <div className="flex flex-row items-center space-x-2">
+      <motion.div className="fixed top-0 z-10 flex flex-row items-center justify-between w-screen px-16 py-4 gap-2 bg-gray-900 h-max backdrop-blur-md dark:bg-opacity-30 bg-opacity-30">
+        <div className="flex flex-row items-center space-x-2 lg:text-lg">
           <Link href="/">
             <div className="flex flex-row items-center space-x-2 text-gray-300 transition-all duration-200 ease-in-out hover:text-blue-600">
-              <div><PiLightningDuotone/></div>
-              <div className="self-stretch">cerulean</div>
+              <div className="font-medium tracking-tighter text-transparent bg-gradient-to-b from-gray-50 to-gray-400 bg-clip-text">
+                Cerulean
+              </div>
             </div>
           </Link>
         </div>
-        <div className="flex flex-row items-center space-x-2 text-base lg:text-xl">
-          <PrimaryLink
-            external={false}
-            href="/"
-            icon={
-              <span className="text-blue-600">
-                <PiGoogleLogoBold />
-              </span>
-            }
-          >
-            sign in
-          </PrimaryLink>
-        </div>
+        <PrimaryLink
+          href="/api/auth/login?"
+          icon={
+            <span className="text-gray-400">
+              <PiFingerprintBold />
+            </span>
+          }
+        >
+          Sign In
+        </PrimaryLink>
       </motion.div>
     );
   } else {
