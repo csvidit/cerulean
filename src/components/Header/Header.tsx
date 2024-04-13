@@ -16,7 +16,7 @@ import { useRouter } from "next/navigation";
 import { IconType } from "react-icons";
 import { useAuth } from "@/AuthContext";
 import { auth } from "@/firebaseConfig";
-import PrimaryLink from "../Buttons/PrimaryLink";
+import PrimaryLink from "../buttons/PrimaryLink";
 
 const Header = () => {
   const { user, signout } = useAuth();

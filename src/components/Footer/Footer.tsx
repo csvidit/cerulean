@@ -1,5 +1,5 @@
 import { PiLightningDuotone } from "react-icons/pi";
-import SecondaryLink from "../Buttons/SecondaryLink";
+import SecondaryLink from "../buttons/SecondaryLink";
 
 const Footer = () => {
   return (

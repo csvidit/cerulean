@@ -1,12 +1,10 @@
 import { PiGoogleLogoBold } from "react-icons/pi";
-import PrimaryLink from "../Buttons/PrimaryLink";
+import PrimaryLink from "../buttons/PrimaryLink";
 
-const Hero = () => {
+const NewTask = () => {
   return (
     <>
-      <h1 className="nav_title text-4xl lg:text-6xl">
-        the elevated to-do list
-      </h1>
+      <h1 className="text-2xl lg:text-4xl font-medium">new task</h1>
       <div className="text-xl lg:text-2xl flex flex-col space-y-2 w-1/2">
         <div>
           set priority levels, due dates, task dependencies, and progress
@@ -15,7 +13,6 @@ const Hero = () => {
       </div>
 
       <PrimaryLink
-        external={false}
         href="/signin"
         className="text-2xl"
         icon={
@@ -30,4 +27,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default NewTask;

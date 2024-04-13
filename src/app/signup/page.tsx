@@ -1,7 +1,7 @@
 "use client";
 
 import { useAuth } from "@/AuthContext";
-import MainContent from "@/components/MainContent";
+import MainContent from "@/components/containers/MainContent";
 import { FormProvider, useForm } from "react-hook-form";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi2";
 import { useRouter } from "next/navigation";

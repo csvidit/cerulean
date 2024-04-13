@@ -1,4 +1,4 @@
-import PrimaryLink from "../Buttons/PrimaryLink";
+import PrimaryLink from "../buttons/PrimaryLink";
 import GridItem from "../grid/GridItem";
 import GridItemsContainer from "../grid/GridItemsContainer";
 import GridItemSubtitle from "../grid/GridItemSubtitle";

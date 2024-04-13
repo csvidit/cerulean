@@ -1,9 +1,9 @@
 
 import "./globals.css"
 import { AuthContextProvider } from "@/AuthContext";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import MainContainer from "@/components/MainContainer";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+import MainContainer from "@/components/containers/MainContainer";
 import { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 

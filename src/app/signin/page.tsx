@@ -1,8 +1,8 @@
 import { useAuth } from "@/AuthContext";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import MainContainer from "@/components/MainContainer";
-import MainContent from "@/components/MainContent";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+import MainContainer from "@/components/containers/MainContainer";
+import MainContent from "@/components/containers/MainContent";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { FormProvider, useForm } from "react-hook-form";
