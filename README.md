@@ -1,4 +1,4 @@
-<img src="https://firebasestorage.googleapis.com/v0/b/vk-cs-portfolio.appspot.com/o/Cerulean-Twitter-Header.png?alt=media&token=c58b10be-c359-43f5-a492-ef3f10328f31"/>
+<img src="https://cerulean-static.nyc3.cdn.digitaloceanspaces.com/public/Cerulean-Header-Beta.png"/>
 
 # cerulean
 
