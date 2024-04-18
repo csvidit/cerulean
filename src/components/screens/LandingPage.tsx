@@ -41,7 +41,7 @@ const LandingPage = () => {
             </Text>
           </GridItem>
         </GridItemsContainer>
-        <PrimaryLink href="/signup">
+        <PrimaryLink href="/api/auth/register?">
           Get Started
         </PrimaryLink>
       </div>

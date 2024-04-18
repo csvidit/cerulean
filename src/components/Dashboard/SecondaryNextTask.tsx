@@ -1,4 +1,4 @@
-import PriorityTag, { Priority } from "../PriorityTag";
+import PriorityTag, { Priority } from "../text/PriorityTag";
 import TaskLink from "./TaskLink";
 import NextDue from "./NextDue";
 import NextTaskContainer from "./NextTaskContainer";

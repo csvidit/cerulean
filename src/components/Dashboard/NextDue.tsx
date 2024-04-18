@@ -1,5 +1,5 @@
 import { PiClockAfternoonDuotone } from "react-icons/pi";
-import PriorityTag, { Priority } from "../PriorityTag";
+import PriorityTag, { Priority } from "../text/PriorityTag";
 
 const NextDue = () => {
   return (
