@@ -10,5 +10,6 @@ An elevated to-do list web app.
 * Kinde Auth
 * Firebase Realtime Database
 * Neon Postgres
+* Drizzle ORM
 * Firebase Messaging
 * Anthropic AI (Claude 3 Sonnet)
